@@ -1,31 +1,8 @@
-/*------------------------------------------------------------------------*/
-/*                       control_allocation_LDL.c                         */
-/*------------------------------------------------------------------------*/
-/*                                                                        */
-/*  I N S T I T U T E   O F   F L I G H T   S Y S T E M   D Y N A M I C S */
-/*                       Web: www.fsd.ed.tum.de                           */
-/*                         _______                                        */
-/*                            |  |    |\  /|                              */
-/*                            |  |    | \/ |                              */
-/*                            |  |____|    |                              */
-/*                 Technische Universitaet Muenchen TUM                   */
-/*                                                                        */
-/*(c) 2023 by Institute of Flight System Dynamics                         */
-/*                        All Rights Reserved                             */
-/*------------------------------------------------------------------------*/
-/*Description:  Provides control allocation functionality                 */
-/*Type:         C - source file                                           */
-/*Dependencies:                                                           */
-/*------------------------------------------------------------------------*/
-/*Author:       S. Hafner                                                 */
-/*Date:         2023-11-08                                                */
-/*Contact:      Institute of Flight System Dynamics                       */
-/*              School of Engineering and Design                          */
-/*              Technische Universitaet Muenchen                          */
-/*              Boltzmannstrasse 15                                       */
-/*              D-85748 Garching                                          */
-/*              simon.hafner@tum.de                                       */
-/*------------------------------------------------------------------------*/
+/**
+ * Copyright (C) 2023-2024 Simon Hafner - All Rights Reserved  
+ * Institute of Flight System Dynamics -- Technische Universitaet Muenchen
+ * Contact: simon.hafner@tum.de  
+ */
 
 #include <math.h>
 #include "sym_mat_inv.h"

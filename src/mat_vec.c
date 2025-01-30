@@ -1,31 +1,8 @@
-/*------------------------------------------------------------------------*/
-/*                               mat_vec.c                                 */
-/*------------------------------------------------------------------------*/
-/*                                                                        */
-/*  I N S T I T U T E   O F   F L I G H T   S Y S T E M   D Y N A M I C S */
-/*                       Web: www.fsd.ed.tum.de                           */
-/*                         _______                                        */
-/*                            |  |    |\  /|                              */
-/*                            |  |    | \/ |                              */
-/*                            |  |____|    |                              */
-/*                 Technische Universitaet Muenchen TUM                   */
-/*                                                                        */
-/*(c) 2023 by Institute of Flight System Dynamics                         */
-/*                        All Rights Reserved                             */
-/*------------------------------------------------------------------------*/
-/*Description:  Provides basic matrix functionilities required            */
-/*Type:         C - header file                                           */
-/*Dependencies:                                                           */
-/*------------------------------------------------------------------------*/
-/*Author:       S. Hafner                                                 */
-/*Date:         2023-10-24                                                */
-/*Contact:      Institute of Flight System Dynamics                       */
-/*              School of Engineering and Design                          */
-/*              Technische Universitaet Muenchen                          */
-/*              Boltzmannstrasse 15                                       */
-/*              D-85748 Garching                                          */
-/*              simon.hafner@tum.de                                       */
-/*------------------------------------------------------------------------*/
+/**
+ * Copyright (C) 2023-2024 Simon Hafner - All Rights Reserved  
+ * Institute of Flight System Dynamics -- Technische Universitaet Muenchen
+ * Contact: simon.hafner@tum.de  
+ */
 
 #ifdef TEST_CONFIG
 #include <stdlib.h>
